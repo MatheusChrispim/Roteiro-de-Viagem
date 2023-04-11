@@ -1,0 +1,114 @@
+body{
+    max-width: 1890px;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#titulo{
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 7%, 11%, 0.897);
+    display: flex;
+    font-family: 'Oswald', Sans-serif;
+    font-size: 90px;
+}
+
+main{
+    margin: 0;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Source Code Pro', sans-serif;
+
+}
+
+.dias{
+    height:100%;
+    border: 2px solid gray;
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    background: rgb(198,99,101);
+    background: linear-gradient(67deg, rgb(116, 112, 112) 5%, rgb(188, 179, 190) 88%);
+    box-shadow: 10px 10px 50px 10px black;
+
+}
+
+.dias h2{
+    font-size: 40px;
+    margin: 20px 0 0 70px;
+    padding: 0;
+    color: rgb(247, 246, 246);
+}
+
+.atividade{
+    display: flex;
+    align-items: center;
+    margin: 13px 0 0 0;
+    gap: 35px;
+    height: 14%;
+}
+
+.atividade .desc-atividade{
+    width: 50%;
+    margin: 35px 30px;
+}
+
+.desc-atividade h3{
+    font-size: 25px;
+    color: rgb(253, 247, 245);
+    margin: 2px;
+}
+
+.atividade h4{
+    margin: 0 15px;
+    font-size: 45px;
+
+}
+
+.atividade ul{
+    font-size: 15px;
+    list-style: none;
+}
+
+.desc-atividade p{
+    font-size: 13px;
+    margin-top: 5px;
+    color: ghostwhite;
+}
+
+ img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.342);
+    
+}
+
+a{
+    color: rgb(187, 233, 233);
+    margin-bottom: 200px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+ul a{
+    color: rgba(255, 252, 252, 0.959);
+    font-weight: 700;
+}

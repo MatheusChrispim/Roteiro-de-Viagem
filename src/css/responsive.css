@@ -1,0 +1,69 @@
+@media (max-width: 1080px){
+
+    body{
+        max-width: 1080px;
+    }
+    .dias{
+        min-height: 100vh;
+    }
+
+    .dias h2{
+        font-size: 90px;
+    }
+
+    img{
+       width: 10%;
+       height: 3vh;
+       margin-right: 50px;
+    }
+
+    .atividade{
+        margin-bottom: 45px;
+        gap: 2px;
+    }
+
+    .atividade .desc-atividade{
+        margin-left: 0;
+    }
+    .desc-atividade h3{
+        font-size: 35px;
+        width: 100%;
+        color: rgb(253, 247, 245);
+        margin-top: 20px;
+    }
+    
+    .atividade h4{
+        margin-left: 10px;
+        font-size: 65px;
+        padding: 0;
+    
+    }
+    
+    .atividade ul{
+        font-size: 15px;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .desc-atividade p{
+        font-size: 18px;
+        margin-top: 5px;
+        color: ghostwhite;
+    }
+    
+     img{
+        width: 20%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.342);
+        
+    }
+
+    ul{
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 15px;
+    };
+}
